@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:rhdp;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+rhdp:
+  cors-allowed-origins: http://localhost:3000
+  jwt:
+    secret: test-jwt-secret-must-be-at-least-32-characters
+    expiration-seconds: 3600
+  stripe:
+    secret-key: sk_test_replace_me
+  demo-user:
+    email: membre@rhdp-canada.local
+    password: test-password
+    display-name: Membre test

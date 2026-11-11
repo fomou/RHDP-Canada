@@ -1,0 +1,15 @@
+.env
+.env.local
+**/.env.local
+
+.DS_Store
+.idea/
+*.iml
+.vscode/
+
+*.log
+
+backend/target/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
