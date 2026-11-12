@@ -9,7 +9,10 @@ Monorepo for the RHDP Canada association site: a Next.js frontend and a Spring B
 | `frontend/` | Next.js App Router, React, TypeScript, Tailwind CSS, shadcn/ui |
 | `backend/` | Java 21, Spring Boot 3.5, Spring Security, Spring Data JPA |
 | `docker-compose.yml` | PostgreSQL 16, the API, and the Next.js app |
+| `docs/` | Product planning (MVP issue backlogs) |
 | `Mockup images/` | Design reference. Leave this folder as it is. |
+
+MVP 1 (identity & onboarding) fine-grained issues: [`docs/mvp1-issues.md`](docs/mvp1-issues.md).
 
 ## Run with Docker Compose
 
