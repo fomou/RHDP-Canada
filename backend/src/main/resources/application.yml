@@ -7,7 +7,7 @@ spring:
   datasource:
     url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/rhdp}
     username: ${DATABASE_USERNAME:rhdp}
-    password: ${DATABASE_PASSWORD:}
+    password: ${DATABASE_PASSWORD:rhdp_local_dev}
   jpa:
     open-in-view: false
     hibernate:
