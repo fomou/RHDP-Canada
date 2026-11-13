@@ -14,10 +14,11 @@ Monorepo for the RHDP Canada association site: a Next.js frontend and a Spring B
 
 MVP 1 (identity & onboarding) fine-grained issues: [`docs/mvp1-issues.md`](docs/mvp1-issues.md).
 
-To load the roadmap + MVP 1 backlog into [GitHub Project #4](https://github.com/users/fomou/projects/4), run locally (requires your `gh` login with `repo` + `project` scopes):
+To load the roadmap + MVP 1 backlog into [GitHub Project #4](https://github.com/users/fomou/projects/4), run locally (requires your `gh` login with `repo` + `project` scopes). **Dry-run is the default** — pass `--live` to create:
 
 ```bash
-./scripts/import-github-project.sh --project-url https://github.com/users/fomou/projects/4
+./scripts/import-github-project.sh --live --limit 1
+./scripts/import-github-project.sh --live --project-url https://github.com/users/fomou/projects/4
 ```
 
 See [`scripts/github-project/README.md`](scripts/github-project/README.md).
