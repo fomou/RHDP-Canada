@@ -14,6 +14,14 @@ Monorepo for the RHDP Canada association site: a Next.js frontend and a Spring B
 
 MVP 1 (identity & onboarding) fine-grained issues: [`docs/mvp1-issues.md`](docs/mvp1-issues.md).
 
+To load the roadmap + MVP 1 backlog into [GitHub Project #4](https://github.com/users/fomou/projects/4), run locally (requires your `gh` login with `repo` + `project` scopes):
+
+```bash
+./scripts/import-github-project.sh --project-url https://github.com/users/fomou/projects/4
+```
+
+See [`scripts/github-project/README.md`](scripts/github-project/README.md).
+
 ## Run with Docker Compose
 
 Docker Compose is the intended local stack. It does not create any Azure or AWS resources.
