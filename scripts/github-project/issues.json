@@ -1,0 +1,164 @@
+[
+  {
+    "id": "epic-mvp-1",
+    "title": "MVP 1 — Identity & onboarding",
+    "labels": ["mvp-1", "enhancement"],
+    "body": "bodies/epics/mvp-1.md"
+  },
+  {
+    "id": "epic-mvp-2",
+    "title": "MVP 2 — Membership & Stripe checkout",
+    "labels": ["mvp-2", "enhancement"],
+    "body": "bodies/epics/mvp-2.md"
+  },
+  {
+    "id": "epic-mvp-3",
+    "title": "MVP 3 — Family & communications",
+    "labels": ["mvp-3", "enhancement"],
+    "body": "bodies/epics/mvp-3.md"
+  },
+  {
+    "id": "epic-mvp-4",
+    "title": "MVP 4 — Events & contributions",
+    "labels": ["mvp-4", "enhancement"],
+    "body": "bodies/epics/mvp-4.md"
+  },
+  {
+    "id": "epic-mvp-5",
+    "title": "MVP 5 — Admin, ops & hardening",
+    "labels": ["mvp-5", "enhancement"],
+    "body": "bodies/epics/mvp-5.md"
+  },
+  {
+    "id": "MVP1-01",
+    "title": "MVP1-01 — Introduce Flyway and disable schema auto-update",
+    "labels": ["mvp-1", "infra", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-01.md"
+  },
+  {
+    "id": "MVP1-02",
+    "title": "MVP1-02 — Migration: users, roles, user_roles, reshape members",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-02.md"
+  },
+  {
+    "id": "MVP1-03",
+    "title": "MVP1-03 — Migration: family_members",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-03.md"
+  },
+  {
+    "id": "MVP1-04",
+    "title": "MVP1-04 — JPA entities and repositories for identity + family",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-04.md"
+  },
+  {
+    "id": "MVP1-05",
+    "title": "MVP1-05 — Load authorities from DB in JWT security filter",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-05.md"
+  },
+  {
+    "id": "MVP1-06",
+    "title": "MVP1-06 — Register endpoint POST /api/auth/register",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-06.md"
+  },
+  {
+    "id": "MVP1-07",
+    "title": "MVP1-07 — Adapt login to User table",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-07.md"
+  },
+  {
+    "id": "MVP1-08",
+    "title": "MVP1-08 — Expand GET /api/me and add PATCH /api/me",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-08.md"
+  },
+  {
+    "id": "MVP1-09",
+    "title": "MVP1-09 — Seed roles + demo member via Flyway/seeder",
+    "labels": ["mvp-1", "backend", "priority:P1"],
+    "body": "bodies/mvp1/MVP1-09.md"
+  },
+  {
+    "id": "MVP1-10",
+    "title": "MVP1-10 — Backend tests for register / login / me / security",
+    "labels": ["mvp-1", "backend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-10.md"
+  },
+  {
+    "id": "MVP1-11",
+    "title": "MVP1-11 — Shared API client + token storage",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-11.md"
+  },
+  {
+    "id": "MVP1-12",
+    "title": "MVP1-12 — Wire connexion page to real login",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-12.md"
+  },
+  {
+    "id": "MVP1-13",
+    "title": "MVP1-13 — Signup route shell + 5-step stepper",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-13.md"
+  },
+  {
+    "id": "MVP1-14",
+    "title": "MVP1-14 — Signup step Compte",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-14.md"
+  },
+  {
+    "id": "MVP1-15",
+    "title": "MVP1-15 — Signup step Profil",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-15.md"
+  },
+  {
+    "id": "MVP1-16",
+    "title": "MVP1-16 — Signup step Proches",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-16.md"
+  },
+  {
+    "id": "MVP1-17",
+    "title": "MVP1-17 — Signup step Récapitulatif",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-17.md"
+  },
+  {
+    "id": "MVP1-18",
+    "title": "MVP1-18 — Submit registration from Récapitulatif → account created",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-18.md"
+  },
+  {
+    "id": "MVP1-19",
+    "title": "MVP1-19 — Espace membre shell",
+    "labels": ["mvp-1", "frontend", "priority:P0"],
+    "body": "bodies/mvp1/MVP1-19.md"
+  },
+  {
+    "id": "MVP1-20",
+    "title": "MVP1-20 — Profile edit in espace membre",
+    "labels": ["mvp-1", "frontend", "priority:P1"],
+    "body": "bodies/mvp1/MVP1-20.md"
+  },
+  {
+    "id": "MVP1-21",
+    "title": "MVP1-21 — Header: auth-aware nav + logout",
+    "labels": ["mvp-1", "frontend", "priority:P1"],
+    "body": "bodies/mvp1/MVP1-21.md"
+  },
+  {
+    "id": "MVP1-22",
+    "title": "MVP1-22 — Paiement step stub (hand-off to MVP 2)",
+    "labels": ["mvp-1", "frontend", "priority:P1"],
+    "body": "bodies/mvp1/MVP1-22.md"
+  }
+]
