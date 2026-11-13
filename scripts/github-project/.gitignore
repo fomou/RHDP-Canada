@@ -1,1 +1,3 @@
 .work-list.tsv
+__pycache__/
+*.pyc

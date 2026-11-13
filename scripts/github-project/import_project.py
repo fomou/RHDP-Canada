@@ -60,13 +60,15 @@ def gh_json(args: list[str], *, input_text: str | None = None):
 
 def parse_project_url(url: str) -> tuple[str, int, str]:
     # returns owner, number, owner_type (user|organization)
-    parts = url.rstrip("/").split("/")
     # https://github.com/users/fomou/projects/4
+    # https://github.com/orgs/acme/projects/4
+    parts = url.rstrip("/").split("/")
     try:
-        kind = parts[-3]
-        owner = parts[-2]
-        number = int(parts[-1])
-    except (IndexError, ValueError) as exc:
+        projects_idx = parts.index("projects")
+        number = int(parts[projects_idx + 1])
+        owner = parts[projects_idx - 1]
+        kind = parts[projects_idx - 2]
+    except (ValueError, IndexError) as exc:
         raise SystemExit(f"Unrecognized project URL: {url}") from exc
     if kind == "users":
         return owner, number, "user"
